@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Roboto";
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use Roboto font for body text */
+    background-color: #f0fff0;
+    color: #333; /* Changed text color to a darker shade for better readability */
+}
+
+#container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    height: 60vh; /* Use viewport height for responsiveness */
+}
+
+
+#bars, #delay{
+	vertical-align: middle;
+    width: 80%; /* Adjust the width to occupy 80% of the available space */
+    max-width: 300px; /* Limit the maximum width to 300 pixels */
+    margin: 0 auto; /* Center the range inputs */
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #008000;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3vw;
+    font-family: "Roboto";
+    font-weight: lighter;
+    text-align: center;
+    flex: 1;
+}
+
+.controls {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.control {
+    margin-bottom: 10px;
+}
+
+.bar {
+    border: 1px solid #333;
+    width: 20px;
+    margin: 2px;
+    background-color: #008000;
+}
+.actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input[type="button"] {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0fff0;
+    color: gray;
+    font-size: 1.2vw;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #e0ffe0; /* Lighten background color on hover */
+}
+
+input[type="button"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
