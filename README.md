@@ -26,3 +26,7 @@ This project implements various sorting algorithms with visualization and sound 
 2. Adjust the number of elements and sorting speed using the input controls.
 3. Select a sorting algorithm.
 4. To reset the sorting process, click the "Generate New Array" button.
+
+## Demo
+
+You can find a live demo of this project [https://sruthikesa.github.io/Sorting_Algorithms_Visualization/](#).
