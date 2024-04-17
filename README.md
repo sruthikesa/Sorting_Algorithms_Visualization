@@ -29,4 +29,4 @@ This project implements various sorting algorithms with visualization and sound 
 
 ## Demo
 
-You can find a live demo of this project [here]((https://sruthikesa.github.io/Sorting_Algorithms_Visualization/).
+You can find a live demo of this project [here](https://sruthikesa.github.io/Sorting_Algorithms_Visualization/).
